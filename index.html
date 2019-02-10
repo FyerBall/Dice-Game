@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Dice Game</title>
+</head>
+
+<body>
+  <input class="scoreInput" type="text" placeholder="What is the final score?">
+  <div class="activePlayer" id="activePlayer"></div>
+  <div class="panel">
+    <div class="player">
+      <div class="playerName">
+        <h1 id="name-0">Player 1</h1>
+      </div>
+      <div class="playerScore" id="player-0">0</div>
+      <div class="playerCurrentScore">Current Score</div> <span id="score-0">0</span>
+    </div>
+    <div class="activeComputer" id="activeComputer"></div>
+    <div class="computer">
+      <div class="computerName">
+        <h1 id="name-1">Player 2</h1>
+      </div>
+      <div class="computerScore" id="player-1">0</div>
+      <div class="computerCurrentScore">Current Score</div> <span id="score-1">0</span>
+    </div>
+    <button class="rollBtn" type="button" name="button">Roll</button>
+    <button class="holdBtn" type="button" name="button">Hold</button>
+    <button class="newGameBtn" type="button" name="button">New Game</button>
+  </div>
+  <img src="dice-5.png" alt="Dice" class="dice" id="dice">
+
+  <button class="popupBtn" type="button" name="button">?</button>
+
+
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
